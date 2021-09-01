@@ -13,4 +13,9 @@ def print_hi(name):
 if __name__ == '__main__':
     print_hi('PyCharm')
 
+
 # See PyCharm help at https://www.jetbrains.com/help/pycharm/
+
+def print_loop(name):
+    name = input("Enter your name:")
+    print("Hello" + name)
